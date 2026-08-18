@@ -1,6 +1,9 @@
-while True:
-	name = input("What is your name? ")
-	if name == "quit":
-		break
-	else:
-		print("hello " + name)
+def fun(a,b):
+	print(b)
+	print(a)
+
+fun(5,6)
+
+a = ''
+if not a:
+	print(3)
