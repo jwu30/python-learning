@@ -1,3 +1,5 @@
-a = {}
 
-print(not a[0])
+
+a = [0] * 5
+
+print(a)

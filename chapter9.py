@@ -54,6 +54,15 @@ class ElectricCar(Car):
 	def describe_battery(self):
 		"""Print a statement describing the battery size."""
 		print("This car has a " + str(self.battery_size) + "-kWh battery.")
+class Battery():
+	"""A simple attempt to model a battery for an electric car."""
+	def __init__(self. battery_size=70):
+		"""Initialize the batttery's attributes."""
+		self.battery_size = battery_size
+		def describe_battery(self):
+			"""Print a statement describing the battery size."""
+			print("This car has a " + str(self.battery_size) + "-kWh battery.")
+		
 
 my_new_car = Car('audi','a4','2016')
 print(my_new_car.get_descriptive_name())
